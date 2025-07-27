@@ -35,6 +35,24 @@ event-management-platform/
 └── README.md                # Project documentation
 ```
 
+## Before Getting Started
+### 🔑 Firebase Admin SDK Key Required
+
+This project requires a Firebase Admin SDK service account key.
+
+#### 🚨 Do NOT commit your actual key to GitHub.
+
+To run the project locally:
+
+1. Create a service account in your [Firebase Project Settings](https://console.firebase.google.com/).
+2. Generate a private key (JSON) and download it.
+3. Rename it to `serviceAccountKey.json`.
+4. Place it in the root directory (or wherever your code expects it).
+5. Make sure it's added to `.gitignore` to prevent accidental commits.
+
+We’ve provided a `serviceAccountKey.sample.json` as a reference for the required structure.
+
+
 ## 🚀 Getting Started
 
 ### Prerequisites
